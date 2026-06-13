@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GhostTrace</title>
 
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="scanlines"></div>
+
+<div class="container">
+
+  <h1 class="title">GHOSTTRACE</h1>
+
+  <p class="subtitle">
+    Deep Web Identity Scanner
+  </p>
+
+  <div class="input-box">
+    <input type="text" id="target" placeholder="Enter target...">
+    <button onclick="startTrace()">TRACE</button>
+  </div>
+
+  <div class="terminal" id="terminal">
+    <div class="line">SYSTEM READY...</div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
